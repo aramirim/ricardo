@@ -1,17 +1,18 @@
 /* RESET CSS */
-html *{margin: 0px;
+html * {
+    margin: 0px;
 }
-
 
 #cabecalho {
     background-color: #5d5d5d;
     height: 400px;
-    /* ATIVA O MODO FLEXIVEL */
+    /* ATIVA O MODO FLEXÍVEL */
     display: flex;
-    /* ALINHA NA HORIZONTAL */
+    /* ALINHA HORIZONTAL */
     justify-content: center;
-    /* ALINHA NA VERTICAL */
+    /* ALINHA VERTICAL */
     align-items: center;
+
 }
 
 #haroldo {
@@ -19,32 +20,30 @@ html *{margin: 0px;
     height: 300px;
     /* LARGURA */
     width: 300px;
-    /* AJUSTAR PORPORÇÃO */
+    /* AJUSTAR PROPORÇÃO */
     object-fit: cover;
-    /* ARRENDONDAR IMAGEM */
+    /* ARREDONDAR IMAGEM */
     border-radius: 50%;
 }
 
 h1, h2 {
     color: #FFFFFF;
-    padding: 15px;
+    padding: 20px;
 }
 
 #principal {
     background-color: #3f3f3f;
     height: 500px;
     text-align: center;
-    
-  
 }
-.container{
-     /* ATIVA O MODO FLEXIVEL */
-     display: flex;
-     /* ALINHA NA HORIZONTAL */
-     justify-content: center;
-     /* ALINHA NA VERTICAL */
-     align-items: center;
 
+.container {
+    /* ATIVA O MODO FLEXÍVEL */
+    display: flex;
+    /* ALINHA HORIZONTAL */
+    justify-content: center;
+    /* ALINHA VERTICAL */
+    align-items: center;
 }
 
 .caixas {
@@ -56,8 +55,30 @@ h1, h2 {
     background-color: #808080;
     /* ESPAÇAMENTO */
     margin: 20px;
+    color: #FFFFFF;
+    font-size: 30px;
+
+    /* ATIVA O MODO FLEXIVEL */
+    display: flex;
+    /* ALINHA HORIZONTAL */
+    justify-content: center;
+    /* ALINHA VERTICAL */
+    align-items: center;
 }
+
 
 #rodape {
     background-color: #202020;
     height: 200px;
+    /* ATIVA O MODO FLEXIVEL */
+    display: flex;
+    /* ALINHA HORIZONTAL */
+    justify-content: center ;
+    /* ALINHA VERTICAL */
+    align-items: center;
+}
+.icones  {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
